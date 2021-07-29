@@ -4,18 +4,9 @@ import React from "react";
 function LandingPage() {
   return (
     <div className="landing-page">
-      <div className="quote-background">
-       <div className="quote-border">
-        <p className="quote">
-            Maybe we all have darkness inside of us and some of us are better at dealing with it than others.
-        </p>
-        <p className="quote-author">JASMINE WARGA.</p>
-       </div>
-      </div>
-     
       <div>
         <img className="landing-image"
-          src="https://www.clipartkey.com/mpngs/m/22-229737_mental-health-transparent.png" alt="landing-page image"
+          src="https://cdn.pixabay.com/photo/2016/11/28/21/20/happiness-1866081_960_720.jpg" alt="landing-page image"
         />
         <div className="transparent-backg">
           <span className="logo">Cerebra</span>
@@ -33,6 +24,14 @@ function LandingPage() {
           </div>
         </div>
       </div>
+        <div className="quote-background">
+          <div className="quote-border">
+            <p className="quote">
+            Maybe we all have darkness inside of us and some of us are better at dealing with it than others.
+             </p>
+            <p className="quote-author">JASMINE WARGA.</p>
+          </div>
+        </div>
     </div>
   );
 }
