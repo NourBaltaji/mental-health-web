@@ -1,9 +1,13 @@
 import "./App.css";
 import React from "react";
-import Blog from "./blog";
+import Blog from "./components/blog";
+import Postfeed from "./components/Postfeed";
 function App() {
   return (
-   <Blog />
+    <>
+      <Blog />
+      <Postfeed />;
+    </>
   );
 }
 

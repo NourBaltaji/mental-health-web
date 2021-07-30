@@ -12,48 +12,46 @@ code {
     monospace;
 }
 
-
 #height {
- border-radius: 14px;
-  color:blue;
+  border-radius: 14px;
+  color: blue;
   padding: 5px 202px;
-  line-height: 55px; 
- 
-  width: 52vh;
+  line-height: 55px;
+  width: 44vh;
+  
 }
 .blog {
- width: 150vh;
- padding: 13px; 
+  
+  padding: 13px;
 }
-.m3 {
-  display:flex;
-    padding: 19px;
+.blogContainer {
+  display: flex;
+  padding: 19px;
   margin-left: 122px;
   width: 150vh;
   border-color: rgb(227, 227, 228);
-  border-style:solid;
+  border-style: solid;
+  border-radius: 22px;
 }
 .new_post {
-  background-color: rgb(134, 134, 170);
+  background-color: rgba(0, 122, 121, 1);
+  
 }
-.heart {
-  height: 6px; 
-position:absolute;
-right: 55px;}
+ 
 
 .List {
-   height: 96px; 
-margin: 30px;
- 
+  height: 122px;
+    margin: 30px;
+
   display: flex;
   align-items: center;
-padding: 1.2em;
-   border-radius: 6%;
-   border-style: solid;
+  padding: 1.2em;
+  border-radius: 6%;
+  border-style: solid;
   border-color: rgb(236, 236, 243);
 }
-.post {
+.postBtn {
   margin-left: 4px;
- background-color: rgba(0, 122, 121, 1);
- color : white;
+  background-color: rgba(0, 122, 121, 1);
+  color: white;
 }
