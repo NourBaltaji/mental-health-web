@@ -5,7 +5,7 @@ function Blog() {
   const [newPostItem, setNewPostItem] = useState([]);
 
   const input = useRef();
-  
+
   var addToList = (e) => {
     e.preventDefault();
     setNewPostItem([...newPostItem, input.current.value]);
@@ -38,9 +38,7 @@ function Blog() {
           <p className="List" key={index}>
             {item}
           </p>
-          
         </div>
-        
       ))}
     </>
   );

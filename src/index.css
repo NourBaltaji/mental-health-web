@@ -18,10 +18,8 @@ code {
   padding: 5px 202px;
   line-height: 55px;
   width: 44vh;
-  
 }
 .blog {
-  
   padding: 13px;
 }
 .blogContainer {
@@ -35,13 +33,11 @@ code {
 }
 .new_post {
   background-color: rgba(0, 122, 121, 1);
-  
 }
- 
 
 .List {
   height: 122px;
-    margin: 30px;
+  margin: 30px;
 
   display: flex;
   align-items: center;
