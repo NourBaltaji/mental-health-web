@@ -1,13 +1,19 @@
 import "./App.css";
-import React from "react";
-import Blog from "./components/blog";
-import Postfeed from "./components/Postfeed";
+import Card from "./components/Card";
+ import React from "react";
 function App() {
+ 
+  
+ 
+
   return (
-    <>
-      <Blog />
-      <Postfeed />;
-    </>
+    <div className="App">
+      <header className="App-header">
+        <Card
+           
+        />
+      </header>
+    </div>
   );
 }
 
