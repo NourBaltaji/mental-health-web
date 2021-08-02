@@ -24,6 +24,10 @@
     width: 390px;
     
 }
+p {
+    margin-top: 1em ;
+    margin-bottom: 1em ;
+  }
 .quote{
     text-align: center;
     line-height: 65px;
@@ -55,14 +59,6 @@
     width: 700px; 
 
 } 
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 20px; 
-    padding: 0px; 
-
-}
 .brain-icon{
     width: 80px;
     height: 80px;  
@@ -74,6 +70,14 @@
     font-size: 28px; 
 
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 20px; 
+
+}
+
 .centred-text{
     color: rgb(17, 128, 128);
     font-size: 40px;
@@ -85,7 +89,6 @@
 
 }
 .line{
-
     width: 350px;
     height: 5px;
     background-color: rgb(17, 128, 128);
@@ -107,6 +110,58 @@
     cursor: pointer;
   
 }
+.carouselpage{
+    position: relative;
+    overflow: hidden;
+}
+.carousel{
+    width:400px;
+    margin:0 auto;
+    overflow: hidden;
+    padding-top: 60px;
+}
+.carouselbutton{
+    background-color: rgb(17, 128, 128);
+    border-radius: 10px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif ;
+    margin: 4px 0px;
+    cursor: pointer;
+    margin-right:2rem  
+}
+.showcards{
+    position: absolute;
+    right: 5px;
+    top: 50px;
+    background-color: rgb(17, 128, 128);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-family:'Poppins', sans-serif ;
+    margin: 4px 0px;
+    cursor: pointer;  
+}
+.carouselCaption{
+    font-size: 16px;
+    font-family:'Poppins', sans-serif ;
+    color: rgb(5, 5, 5);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 5px;
+}
+
+ 
 @media only screen and (max-width: 600px) {
 
 .quote-background{       
