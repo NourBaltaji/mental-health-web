@@ -7,14 +7,8 @@ import Blog from "./components/blog";
 import Postfeed from "./components/Postfeed";
 
 function App() {
- 
-  
- 
-
   return (
     <div className="App">
-      
-    </div>
 
     <div>
       <NavigationBar mode="moderator"/>
