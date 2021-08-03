@@ -17,7 +17,6 @@
     "uuid": "^8.3.2",
     "web-vitals": "^1.0.1",
     "react-spring-3d-carousel": "^1.2.1",
-    "web-vitals": "^1.0.1"
     "react-script": "^2.0.5",
     "yarn": "^1.22.10"
   },

@@ -1,5 +1,5 @@
 import "./App.css";
- 
+
 import Blogcontainer from "./components/Blogcontainer";
 import React from "react";
 
@@ -13,22 +13,16 @@ import Postfeed from "./components/Postfeed";
 function App() {
   return (
     <div className="App">
-
-    <div>
-     {/* <LandingPage/>  */}
-     <ShrinkCarousel/>
-      <NavigationBar mode="moderator"/>
-    <LandingPage/> 
-    <Blog />
-      <Postfeed />;
-    <header className="App-header">
-        <Card
-           
-        />
-      </header>
-<Blogcontainer />
+      <div>
+        {/* <LandingPage/>  */}
+        <ShrinkCarousel />
+        <NavigationBar mode="moderator" />
+        <LandingPage />
+        <Blog />
+        <Postfeed />;<header className="App-header"></header>
+        <Blogcontainer />
+      </div>
     </div>
-
   );
 }
 
