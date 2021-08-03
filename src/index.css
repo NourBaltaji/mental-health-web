@@ -53,6 +53,7 @@ code {
   margin-left: 55px;
 }
 
+
   .postBtn {
     margin-left: 4px;
     background-color: white;
@@ -113,3 +114,13 @@ code {
 .postTop {
   height: -4em;
 }
+.navDefault {
+ color : white;
+}
+@font-face {
+  font-family: "Exo2";
+  src: local("Exo2"),
+    url("./fonts/Exo2-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+}
+
