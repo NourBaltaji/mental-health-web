@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.navDefault {
+ color : white;
+}
+@font-face {
+  font-family: "Exo2";
+  src: local("Exo2"),
+    url("./fonts/Exo2-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+}
