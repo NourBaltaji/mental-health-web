@@ -27,7 +27,7 @@ function LandingPage() {
         <div className="quote-background">
           <div className="quote-border">
             <p className="quote">
-            Maybe we all have darkness inside of us and some of us are better at dealing with it than others.
+              Maybe we all have darkness inside of us and some of us are better at dealing with it than others.
              </p>
             <p className="quote-author">JASMINE WARGA.</p>
           </div>
