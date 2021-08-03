@@ -1,14 +1,9 @@
 import "./App.css";
-import Card from "./components/Card";
+ 
+import Blogcontainer from "./components/Blogcontainer";
 import React from "react";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Card />
-      </header>
-    </div>
-  );
+  return    <Blogcontainer /> ;
 }
 
 export default App;
